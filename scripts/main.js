@@ -34,5 +34,6 @@ function arCheck() {
     if (document.getElementById("logocontainer").relList.supports("ar")) {
         document.getElementById("logocontainer").rel = "ar"
         document.getElementById("logocontainer").href = "./assets/CyberFlightLogo.usdz"
+        document.getElementById("logocontainer").click()
     }
 }
